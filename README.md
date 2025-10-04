@@ -26,7 +26,7 @@ Extension: Chrome Extension (Manifest V3)
 
 AI Integration: Google Gemini API
 
-# Clone the repository
+``` Clone the repository
 git clone https://github.com/sumanpanditofficial/Email-Assistant.git
 cd Email-Assistant
 
