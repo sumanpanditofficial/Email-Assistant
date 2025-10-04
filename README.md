@@ -31,7 +31,7 @@ git clone https://github.com/sumanpanditofficial/Email-Assistant.git
 cd Email-Assistant
 
 # Backend
-cd SpringReply, also set your url into the code into the @Value{Gemeni.api.url}, and the api key to @Value("${gemini.api.key}"), in the properties and make sure to use the enviornment variable of your ide so that your key and url is safe.
+cd SpringReply //also set your url into the code into the @Value{Gemeni.api.url}, and the api key to @Value("${gemini.api.key}"), in the properties and make sure to use the //enviornment variable of your ide so that your key and url is safe.
 ./mvnw spring-boot:run
 
 # Frontend
