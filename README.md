@@ -1,4 +1,4 @@
-# ** Email Assistant (AI-powered)**
+#  Email Assistant (AI-powered)
 
 -An AI-driven email productivity tool that helps users generate, edit, and send personalized emails faster — integrated seamlessly into inboxes via a Chrome Extension.
 
