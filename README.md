@@ -4,7 +4,7 @@
 
  Built with Spring Boot (Backend), ReactJS (Frontend), and Google Gemini API, this project showcases my skills in designing scalable backend services, API integration, and building intuitive user interfaces.
 
-# Features
+## Features
 
  -AI-powered drafting → Real-time personalized email suggestions using Google Gemini API.
 
@@ -16,7 +16,7 @@
 
  -Productivity Boost → Reduced drafting time by 40%+ in testing scenarios.
 
- # Tech Stack
+ ## Tech Stack
 
 Backend: Java, Spring Boot, REST APIs
 
@@ -26,6 +26,7 @@ Extension: Chrome Extension (Manifest V3)
 
 AI Integration: Google Gemini API
 
+###How to run the projcect
 ``` Clone the repository
 git clone https://github.com/sumanpanditofficial/Email-Assistant.git
 cd Email-Assistant
