@@ -1,44 +1,60 @@
 #  Email Assistant (AI-powered)
 
--An AI-driven email productivity tool that helps users generate, edit, and send personalized emails faster — integrated seamlessly into inboxes via a Chrome Extension.
+An **AI-driven email productivity tool** that helps users **generate, edit, and send personalized emails faster** — integrated seamlessly into inboxes via a **Chrome Extension**.  
 
- Built with Spring Boot (Backend), ReactJS (Frontend), and Google Gemini API, this project showcases my skills in designing scalable backend services, API integration, and building intuitive user interfaces.
+Built with **Spring Boot (Backend)**, **ReactJS (Frontend)**, and **Google Gemini API**, this project showcases my skills in **scalable backend design, API integration, and intuitive UI development**.
 
-## Features
+---
 
- -AI-powered drafting → Real-time personalized email suggestions using Google Gemini API.
+##  Features
 
- -Chrome Extension → Brings the assistant directly into your inbox, eliminating app-switching.
+-  **AI-powered drafting** → Real-time personalized email suggestions using Google Gemini API.  
+-  **Chrome Extension** → Embedded directly into inboxes to eliminate app-switching.  
+-  **Scalable Backend** → Spring Boot backend supporting secure, high-performance API requests.  
+-  **Interactive Frontend** → ReactJS interface for smooth drafting and editing.  
+-  **Productivity Boost** → Reduced drafting time by 40%+ in testing scenarios.  
 
- -Scalable Backend → Spring Boot backend supporting secure, high-performance API requests.
+---
 
- -Interactive Frontend → ReactJS interface for smooth drafting and editing experience.
+##  Tech Stack
 
- -Productivity Boost → Reduced drafting time by 40%+ in testing scenarios.
+- **Backend:** Java, Spring Boot, REST APIs  
+- **Frontend:** ReactJS, MUI  
+- **Extension:** Chrome Extension (Manifest V3)  
+- **AI Integration:** Google Gemini API  
 
- ## Tech Stack
+---
 
-Backend: Java, Spring Boot, REST APIs
+##  How to Run
 
-Frontend: ReactJS, MUI
-
-Extension: Chrome Extension (Manifest V3)
-
-AI Integration: Google Gemini API
-
-###How to run the projcect
-``` Clone the repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/sumanpanditofficial/Email-Assistant.git
 cd Email-Assistant
 
-# Backend
-cd SpringReply //also set your url into the code into the @Value{Gemeni.api.url}, and the api key to @Value("${gemini.api.key}"), in the properties and make sure to use the enviornment variable of your ide so that your key and url is safe.
-./mvnw spring-boot:run
+//For backend
+cd SpringReply
+./mvnw spring-boot:run   # Linux/Mac
+mvnw spring-boot:run     # Windows
 
-# Frontend
+//setup notes
+In application.properties, set:
+
+gemini.api.url=${GEMINI_URL}
+gemini.api.key=${GEMINI_API_KEY}
+
+//Use IDE environment variables to keep your keys safe.
+
+//For Frontend
 cd spring-reply-react
 npm install
 npm run dev
 
-# Chrome Extension
-Load the extension from /extension in Chrome Developer Mode
+//And at last the extension part
+
+1.Open Chrome → chrome://extensions/
+2.Enable Developer Mode
+3.Click Load Unpacked → select the /extension folder
+
+//Enjoy that's all
+
